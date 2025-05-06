@@ -8,4 +8,4 @@
 
 # Ignore checkpoint files
 checkpoint/
-
+*.pem
