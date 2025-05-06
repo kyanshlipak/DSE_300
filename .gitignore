@@ -1,0 +1,11 @@
+# Ignore PDF, XLSX, and CSV files
+*.pdf
+*.xlsx
+*.csv
+
+# Ignore macOS system files
+.DS_Store
+
+# Ignore checkpoint files
+checkpoint/
+
