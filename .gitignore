@@ -1,7 +1,8 @@
 # Ignore PDF, XLSX, and CSV files
-*.pdf
 *.xlsx
 *.csv
+*.pdf
+!HW2/DSE300_HW2.pdf
 
 # Ignore macOS system files
 .DS_Store
