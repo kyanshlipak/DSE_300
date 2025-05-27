@@ -3,6 +3,8 @@
 *.csv
 *.pdf
 !HW2/DSE300_HW2.pdf
+Final Project/.venv
+.venv/
 
 # Ignore macOS system files
 .DS_Store
