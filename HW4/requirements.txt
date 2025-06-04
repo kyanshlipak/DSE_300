@@ -1,0 +1,7 @@
+boto3
+pandas
+requests
+matplotlib
+scikit-learn
+numpy
+
