@@ -78,7 +78,10 @@ dag = DAG(
     default_args = default_args,
     description = 'Get weather data every two hours and upload to S3',
     schedule=WORKFLOW_SCHEDULE,  # Updated from schedule_interval
-    tags=["de300"]
+    tags=["de300"],
+    end_date=datetime(2025, 6, 6),  # runs for 6/4 and 6/5
+    catchup=False,
+
 )
 
 task_weather_upload = PythonOperator(
